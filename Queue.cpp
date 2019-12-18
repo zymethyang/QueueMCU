@@ -27,7 +27,7 @@ void Queue::push(int number) {
   _len += 1;
 }
 
-int Queue::pop() {
+int Queue::shift() {
   int pop_result = *(_queueList);
 
   for (int index = 0; index < _len - 1; index++) {

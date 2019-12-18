@@ -8,7 +8,7 @@ class Queue {
     Queue(int len);
     void dump();
     void push(int number);
-    int pop();
+    int shift();
   private:
     int _len;
     int* _queueList;
